@@ -1,0 +1,21 @@
+{
+  "soTest": 88,
+  "datTrenBanDung": 88,
+  "saiTrenBanDung": [],
+  "phuSong": {
+    "dong": 100,
+    "nhanh": 100,
+    "ham": 100
+  },
+  "dotBien": {
+    "tong": 89,
+    "diet": 89,
+    "song": 0,
+    "tiLe": 100,
+    "danhSachSong": []
+  },
+  "batLoiLamTron": [],
+  "batLoiKiemTra": [
+    "tong cua 0.1 va 0.2 co sai so dau phay dong bi tu choi o baiTap"
+  ]
+}

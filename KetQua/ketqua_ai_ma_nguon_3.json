@@ -1,0 +1,19 @@
+{
+  "soTest": 87,
+  "datTrenBanDung": 87,
+  "saiTrenBanDung": [],
+  "phuSong": {
+    "dong": 100,
+    "nhanh": 100,
+    "ham": 100
+  },
+  "dotBien": {
+    "tong": 89,
+    "diet": 89,
+    "song": 0,
+    "tiLe": 100,
+    "danhSachSong": []
+  },
+  "batLoiLamTron": [],
+  "batLoiKiemTra": []
+}

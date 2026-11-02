@@ -1,0 +1,30 @@
+{
+  "soTest": 78,
+  "datTrenBanDung": 78,
+  "saiTrenBanDung": [],
+  "phuSong": {
+    "dong": 100,
+    "nhanh": 100,
+    "ham": 100
+  },
+  "dotBien": {
+    "tong": 89,
+    "diet": 88,
+    "song": 1,
+    "tiLe": 98.9,
+    "danhSachSong": [
+      {
+        "loai": "StringLiteral",
+        "dong": 19,
+        "cot": 28,
+        "thayBang": "``"
+      }
+    ]
+  },
+  "batLoiLamTron": [
+    "BQD: sai so nhi phan 4.45 lam tron thanh 4.5",
+    "BQD: sai so nhi phan 4.95 lam tron thanh 5",
+    "BQD: sai so nhi phan 5.45 lam tron thanh 5.5"
+  ],
+  "batLoiKiemTra": []
+}

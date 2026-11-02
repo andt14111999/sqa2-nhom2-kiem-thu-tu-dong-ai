@@ -1,0 +1,35 @@
+{
+  "soTest": 138,
+  "datTrenBanDung": 138,
+  "saiTrenBanDung": [],
+  "phuSong": {
+    "dong": 100,
+    "nhanh": 100,
+    "ham": 100
+  },
+  "dotBien": {
+    "tong": 89,
+    "diet": 88,
+    "song": 1,
+    "tiLe": 98.9,
+    "danhSachSong": [
+      {
+        "loai": "StringLiteral",
+        "dong": 19,
+        "cot": 28,
+        "thayBang": "``"
+      }
+    ]
+  },
+  "batLoiLamTron": [
+    "20000 bộ điểm ngẫu nhiên cố định",
+    "lưới bộ điểm đầy đủ theo chuyenCan và thi",
+    "điểm tổng kết nằm đúng giữa hai mức luôn được làm tròn lên"
+  ],
+  "batLoiKiemTra": [
+    "chuyenCan = 0.1 + 0.2 (sai số nhị phân)",
+    "baiTap = 0.1 + 0.2 (sai số nhị phân)",
+    "kiemTra = 0.1 + 0.2 (sai số nhị phân)",
+    "thi = 0.1 + 0.2 (sai số nhị phân)"
+  ]
+}

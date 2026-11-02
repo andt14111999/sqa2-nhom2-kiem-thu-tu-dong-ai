@@ -1,0 +1,14 @@
+{
+  "name": "demo-kiem-thu-tu-dong",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/a_ky_thuat.test.mjs test/hoi_quy.test.mjs",
+    "e2e": "playwright test",
+    "serve": "node scripts/phuc_vu.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@stryker-mutator/core": "10.1.1"
+  }
+}

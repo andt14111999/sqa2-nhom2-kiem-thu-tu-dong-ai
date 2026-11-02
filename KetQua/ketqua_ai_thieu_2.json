@@ -1,0 +1,29 @@
+{
+  "soTest": 150,
+  "datTrenBanDung": 150,
+  "saiTrenBanDung": [],
+  "phuSong": {
+    "dong": 100,
+    "nhanh": 100,
+    "ham": 100
+  },
+  "dotBien": {
+    "tong": 89,
+    "diet": 88,
+    "song": 1,
+    "tiLe": 98.9,
+    "danhSachSong": [
+      {
+        "loai": "StringLiteral",
+        "dong": 19,
+        "cot": 28,
+        "thayBang": "``"
+      }
+    ]
+  },
+  "batLoiLamTron": [
+    "lưới giá trị - kết quả khớp mô hình tham chiếu rút ra từ đặc tả",
+    "2000 bộ điểm ngẫu nhiên với seed cố định - kết quả khớp mô hình tham chiếu"
+  ],
+  "batLoiKiemTra": []
+}

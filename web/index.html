@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tính điểm học phần</title>
+<style>
+  body { font-family: system-ui, sans-serif; background: #f4f5f7; margin: 0; padding: 32px; color: #1f2933; }
+  main { max-width: 420px; margin: auto; background: #fff; padding: 24px 28px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+  h1 { font-size: 20px; margin: 0 0 16px; }
+  label { display: grid; grid-template-columns: 110px 1fr; align-items: center; margin-bottom: 10px; font-size: 15px; }
+  input { font-size: 15px; padding: 6px 8px; border: 1px solid #b8c0cc; border-radius: 4px; }
+  button { margin-top: 6px; font-size: 15px; padding: 8px 16px; background: #1d5fbf; color: #fff; border: 0; border-radius: 4px; cursor: pointer; }
+  [role=status], [role=alert] { margin-top: 16px; font-size: 15px; font-weight: 600; min-height: 20px; }
+  [role=alert] { color: #b42318; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tính điểm học phần</h1>
+  <form id="form" novalidate>
+    <label>Chuyên cần <input name="chuyenCan" inputmode="decimal"></label>
+    <label>Bài tập <input name="baiTap" inputmode="decimal"></label>
+    <label>Kiểm tra <input name="kiemTra" inputmode="decimal"></label>
+    <label>Thi <input name="thi" inputmode="decimal"></label>
+    <button type="submit">Tính điểm</button>
+  </form>
+  <div role="status"></div>
+  <div role="alert"></div>
+</main>
+<script type="module">
+  import { tinhDiemHocPhan } from "/src/diem.js";
+  const NHAN = { chuyenCan: "Chuyên cần", baiTap: "Bài tập", kiemTra: "Kiểm tra", thi: "Thi" };
+  const form = document.querySelector("#form");
+  const status = document.querySelector("[role=status]");
+  const alert = document.querySelector("[role=alert]");
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    status.textContent = "";
+    alert.textContent = "";
+    const giaTri = (ten) => {
+      const s = form.elements[ten].value.trim();
+      return s === "" ? NaN : Number(s);
+    };
+    const diem = Object.fromEntries(Object.keys(NHAN).map((ten) => [ten, giaTri(ten)]));
+    try {
+      const kq = tinhDiemHocPhan(diem);
+      status.textContent = `Tổng kết: ${kq.tongKet} - Điểm chữ: ${kq.diemChu} - Trạng thái: ${kq.trangThai}`;
+    } catch (err) {
+      alert.textContent = `Điểm không hợp lệ: ${NHAN[err.truong]}`;
+    }
+  });
+</script>
+</body>
+</html>

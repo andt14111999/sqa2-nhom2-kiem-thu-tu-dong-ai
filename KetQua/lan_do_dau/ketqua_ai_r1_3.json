@@ -1,0 +1,41 @@
+{
+  "soTest": 138,
+  "datTrenBanDung": 134,
+  "saiTrenBanDung": [
+    "điểm thành phần không hợp lệ ném RangeError DIEM_KHONG_HOP_LE"
+  ],
+  "phuSong": {
+    "dong": 100,
+    "nhanh": 100,
+    "ham": 100
+  },
+  "dotBien": {
+    "tong": 93,
+    "diet": 90,
+    "song": 3,
+    "tiLe": 96.8,
+    "danhSachSong": [
+      {
+        "loai": "LogicalOperator",
+        "dong": 16,
+        "cot": 5,
+        "thayBang": "typeof diem === \"number\" || Number.isFinite(diem)"
+      },
+      {
+        "loai": "ConditionalExpression",
+        "dong": 16,
+        "cot": 5,
+        "thayBang": "true"
+      },
+      {
+        "loai": "StringLiteral",
+        "dong": 25,
+        "cot": 28,
+        "thayBang": "``"
+      }
+    ]
+  },
+  "batLoiLamTronV1": [
+    "so khớp mô hình số học số nguyên và tính chất chung"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "soTest": 90,
+  "datTrenBanDung": 90,
+  "saiTrenBanDung": [],
+  "phuSong": {
+    "dong": 100,
+    "nhanh": 100,
+    "ham": 100
+  },
+  "dotBien": {
+    "tong": 93,
+    "diet": 90,
+    "song": 3,
+    "tiLe": 96.8,
+    "danhSachSong": [
+      {
+        "loai": "LogicalOperator",
+        "dong": 16,
+        "cot": 5,
+        "thayBang": "typeof diem === \"number\" || Number.isFinite(diem)"
+      },
+      {
+        "loai": "ConditionalExpression",
+        "dong": 16,
+        "cot": 5,
+        "thayBang": "true"
+      },
+      {
+        "loai": "StringLiteral",
+        "dong": 25,
+        "cot": 28,
+        "thayBang": "``"
+      }
+    ]
+  },
+  "batLoiLamTronV1": [
+    "quét toàn bộ so với phép tính số nguyên theo đặc tả"
+  ]
+}

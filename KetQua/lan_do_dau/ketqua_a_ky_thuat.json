@@ -1,0 +1,41 @@
+{
+  "soTest": 78,
+  "datTrenBanDung": 78,
+  "saiTrenBanDung": [],
+  "phuSong": {
+    "dong": 100,
+    "nhanh": 100,
+    "ham": 100
+  },
+  "dotBien": {
+    "tong": 93,
+    "diet": 90,
+    "song": 3,
+    "tiLe": 96.8,
+    "danhSachSong": [
+      {
+        "loai": "LogicalOperator",
+        "dong": 16,
+        "cot": 5,
+        "thayBang": "typeof diem === \"number\" || Number.isFinite(diem)"
+      },
+      {
+        "loai": "ConditionalExpression",
+        "dong": 16,
+        "cot": 5,
+        "thayBang": "true"
+      },
+      {
+        "loai": "StringLiteral",
+        "dong": 25,
+        "cot": 28,
+        "thayBang": "``"
+      }
+    ]
+  },
+  "batLoiLamTronV1": [
+    "BQD: sai so nhi phan 4.45 lam tron thanh 4.5",
+    "BQD: sai so nhi phan 4.95 lam tron thanh 5",
+    "BQD: sai so nhi phan 5.45 lam tron thanh 5.5"
+  ]
+}
